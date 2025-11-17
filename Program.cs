@@ -1,23 +1,59 @@
-﻿using ExemplosExplorando.models;
-using System.Globalization;
-using Newtonsoft.Json;
-using System.Runtime.CompilerServices;
+﻿using DRAKE.models;
 
 
-string conteudoArquivo = File.ReadAllText("Arquivos/vendas.Json");
-
-List<Venda> listavenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
-foreach (Venda venda in listavenda)
-{
-    Console.WriteLine($" Id: {venda.Id}, Produto: {venda.Produto}, " +
-                      $"Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm)")}");
-}
+Corrente c = new Corrente();
+c.Creditar(500);
+c.ExibirSaldo();
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Aluno a1 = new Aluno();
+// a1.Nome = "Gabriel";
+// a1.Idade = 20;
+// a1.Email = "gabrielolivr.16@gmail.com";
+// a1.Nota = 10;
+// a1.Apresentar();
+
+// Professor p1 = new Professor();
+// p1.Nome = "José";
+// p1.Idade = 37;
+// p1.Salario = 1000M;
+// p1.Apresentar();
 
 
 

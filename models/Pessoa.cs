@@ -3,58 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ExemplosExplorando.models
+namespace DRAKE.models
 {
     public class Pessoa
     {
-        private string _nome;
-        private int _idade;
+        public string Nome { get; set; }
+        public int Idade { get; set; }
+        public string Email { get; set; }
 
-        public Pessoa(string nome, string sobrenome)
+        public virtual void Apresentar()
         {
-            Nome = nome;
-            Sobrenome = sobrenome;
-        }
-
-        public void Deconstruct(out string nome, out string sobrenome)
-        {
-            nome = Nome;
-            sobrenome = Sobrenome;
-        }
-
-        public string Nome
-        {
-            get => _nome.ToUpper();
-            set
-            {
-                if (string.IsNullOrWhiteSpace(value))
-                {
-                    throw new ArgumentException("O nome não pode ser vazio ou nulo");
-                }
-                _nome = value;
-            }
-        }
-
-        public string Sobrenome { get; set; }
-        
-        public string NomeCompleto => $"{Nome} {Sobrenome}".ToUpper();
-        
-        public int Idade
-        {
-            get => _idade;
-            set
-            {
-                if (value < 0)
-                {
-                    throw new ArgumentException("A idade não pode ser menor que zero");
-                }
-                _idade = value;
-            }
-        }
-
-        public void Apresentar()
-        {
-            Console.WriteLine($"Nome: {NomeCompleto}, Idade: {Idade}");
+            Console.WriteLine($"Olá, meu nome é {Nome}, tenho {Idade} anos e meu E-mail é: {Email}");
         }
     }
 }

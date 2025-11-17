@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ExemplosExplorando.models
+namespace DRAKE.models
 {
     public class LeituraArquivo
     {

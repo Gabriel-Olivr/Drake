@@ -60,11 +60,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Documentos\\PROJETOS\\ExemplosExplorando\\ExemplosExplorando.csproj",
-      "projectName": "ExemplosExplorando",
-      "projectPath": "C:\\Users\\gabri\\OneDrive\\Documentos\\PROJETOS\\ExemplosExplorando\\ExemplosExplorando.csproj",
+      "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Documentos\\PROJETOS\\Drake\\ExemplosPOO.csproj",
+      "projectName": "ExemplosPOO",
+      "projectPath": "C:\\Users\\gabri\\OneDrive\\Documentos\\PROJETOS\\Drake\\ExemplosPOO.csproj",
       "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gabri\\OneDrive\\Documentos\\PROJETOS\\ExemplosExplorando\\obj\\",
+      "outputPath": "C:\\Users\\gabri\\OneDrive\\Documentos\\PROJETOS\\Drake\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config"
