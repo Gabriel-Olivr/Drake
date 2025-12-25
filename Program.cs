@@ -1,9 +1,84 @@
-﻿using DRAKE.models;
+﻿using Drake.models;
+using DRAKE.models;
+using Drake.Interfaces;
+
+ICalculadora calc = new Calculadora();
+Console.WriteLine(calc.Multiplicar(3,9));
 
 
-Corrente c = new Corrente();
-c.Creditar(500);
-c.ExibirSaldo();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Pessoa p1 = new Pessoa("Gabriel");
+// Aluno a1 = new Aluno("Danilo");
+// a1.Apresentar();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Corrente c = new Corrente();
+// c.Creditar(500);
+// c.ExibirSaldo();
 
 
 
